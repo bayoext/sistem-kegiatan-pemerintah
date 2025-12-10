@@ -206,9 +206,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 Untuk pertanyaan atau dukungan, silakan hubungi:
-- Email: info@kegiatan-pemerintah.go.id
-- Phone: (021) 1234-5678
-
+- Email: ehbayu7@gmail.com
+- Phone: 082249231315
 ---
 
 **Sistem Kegiatan Pemerintah** - Transparansi dan Akuntabilitas dalam Setiap Program Sponsors
