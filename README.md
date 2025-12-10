@@ -96,12 +96,12 @@ Aplikasi web untuk manajemen program dan kegiatan pemerintah yang transparan dan
 4. **Database configuration**
    Edit file `.env` dan sesuaikan konfigurasi database:
    ```env
-   DB_CONNECTION=mysql
+   DB_CONNECTION=pgsql
    DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=sistem_kegiatan
-   DB_USERNAME=root
-   DB_PASSWORD=
+   DB_PORT=5432
+   DB_DATABASE=program_management
+   DB_USERNAME=(username anda)
+   DB_PASSWORD=(password anda)
    ```
 
 5. **Database migration & seeding**
@@ -127,8 +127,8 @@ Setelah seeding, tersedia akun default:
 
 | Role | Email | Password |
 |------|-------|----------|
-| Super Admin | kadis.kominfo@pemda.go.id | password |
-| Admin | sekda@pemda.go.id | password |
+| SuperAdmin | superadmin@mail.co | password |
+| Admin | admin@mail.co | password |
 
 ## 📁 Struktur Project
 
