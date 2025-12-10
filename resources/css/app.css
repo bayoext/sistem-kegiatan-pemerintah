@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles dengan konsep 60-30-10 */
+@layer components {
+    /* 60% Primary elements */
+    .btn-primary {
+        @apply bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-colors;
+    }
+
+    .card-primary {
+        @apply bg-white rounded-xl shadow-lg border border-gray-200 p-6;
+    }
+
+    /* 30% Secondary elements */
+    .btn-secondary {
+        @apply bg-secondary-500 text-white px-4 py-2 rounded-lg hover:bg-secondary-600 transition-colors;
+    }
+
+    /* 10% Accent elements */
+    .badge-accent {
+        @apply bg-accent-500 text-white px-3 py-1 rounded-full text-sm;
+    }
+
+    /* Modern glass effect */
+    .glass-effect {
+        @apply backdrop-blur-lg bg-white/70 border border-white/20;
+    }
+
+    /* Gradient background */
+    .gradient-bg {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+}
